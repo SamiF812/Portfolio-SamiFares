@@ -104,7 +104,7 @@ section p {
 }
 
 
-.Mainproject {
+/* .Mainproject { */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -122,16 +122,16 @@ section p {
     align-items: flex-end;
     margin: 10px;
     background: left;
-    background-image: url("./images/comingsoon.jpeg");
+    /* background-image: url("./images/comingsoon.jpeg"); */
     background-size: cover;
 }
 
 /* My showcase project styling */
 .Mainproject-big {
-    min-height: 300px;
+    min-height: 500px;
     flex-basis: 79%;
     background: left;
-    background-image: url("./images/horiseonpg.png");
+    background-image: url("./images/Results.png");
     background-size: cover;
 }
 
@@ -169,6 +169,10 @@ footer a {
     align-items: center;
 }
 
+footer p {
+    font-weight: bold;
+}
+
 /* attempted to get the media screen working*/
 @media screen and (max-width: 778px) {
     .Mainproject-big {
@@ -191,4 +195,51 @@ footer a {
         line-height: 1.1;
         padding: 10px;
     }
+}
+
+.Mainproject-item1 {
+    /* width:50%; */
+    height: 600px;
+    flex-basis: calc(50%-1em);
+    border: 5px solid black;
+    object-fit: cover;
+    vertical-align: top;
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+    background: left;
+    background-image: url("./images/Password-gen.png");
+    background-size: cover;
+}
+
+.Mainproject-item2 {
+    /* width:50%; */
+    height: 600px;
+    flex-basis: calc(50%-1em);
+    border: 5px solid black;
+    object-fit: cover;
+    vertical-align: top;
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+    background: left;
+    background-image: url("./images/Main.png");
+    background-size: cover;
+    /* margin-left: 13px; */
+}
+
+.Mainproject-item3 {
+    /* width:50%; */
+    height: 600px;
+    flex-basis: calc(50%-1em);
+    border: 5px solid black;
+    object-fit: cover;
+    vertical-align: top;
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+    background: left;
+    background-image: url("./images/Results.png");
+    background-size: cover;
+    /* margin-left: 13px; */
 }
